@@ -2,6 +2,8 @@ class Main
 {
   public static void main(String[] args) 
   {
-    System.out.println("Hello world!");
+   PetParent blankPet = new PetParent("Bob",true,"yellow-purle",2,0.9);
+
+   System.out.println(blankPet.toString());
   }
 }
