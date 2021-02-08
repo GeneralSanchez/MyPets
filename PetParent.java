@@ -20,5 +20,6 @@ class PetParent
     return "Name ="+name+
             "\nhasHair =" + hasHair +
             "\ncolor =" + color+
+            "\ncuttenes"+ cuteness+
   }
 }
