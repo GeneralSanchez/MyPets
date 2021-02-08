@@ -1,25 +1,26 @@
 class PetParent
 {
   public String name;
-  public boolenan hasHair
+  public boolean hasHair;
   public String color;
-  public int cuteness;
-  public double fiendliness;
+  public int cuteness;//1-10 1: ugly
+  public double friendliness; //% in decimal form
 
-  public PetParent(String name,boo hasHair,String color,int cuteness, double fiendliness)
+  public PetParent(String name, boolean hasHair, String color, int cuteness, double friendliness)
   {
     this.name = name;
     this.hasHair = hasHair;
     this.color = color;
     this.cuteness = cuteness;
-    this.fiendliness = fiendliness;
+    this.friendliness = friendliness;
   }
 
   public String toString()
   {
-    return "Name ="+name+
-            "\nhasHair =" + hasHair +
-            "\ncolor =" + color+
-            "\ncuttenes"+ cuteness+
+    return "Name = " + name +
+            "\nhasHair = " + hasHair +
+            "\ncolor = " + color +
+            "\ncuteness (1-10) = " + cuteness +
+            "\nfriendliness (% in decimal form) = " + friendliness;
   }
 }
